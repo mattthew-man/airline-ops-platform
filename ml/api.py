@@ -125,7 +125,7 @@ button{background:#2a9d8f;color:#fff;border:0;font-weight:600;cursor:pointer}
 .small{color:#64748b;font-size:12.5px}</style></head><body>
 <h1>✈️ Flight delay risk</h1>
 <p class="small">Probability of a ≥15-min departure delay. Trained on 3.4M real US DOT flights.
-Ops planning tool — see the <a href="https://github.com/battina1999/airline-data-platform/blob/main/docs/model_card.md">model card</a>. API docs at <a href="/docs">/docs</a>.</p>
+Ops planning tool — see the <a href="https://github.com/your-username/airline-data-platform/blob/main/docs/model_card.md">model card</a>. API docs at <a href="/docs">/docs</a>.</p>
 <div>
 Carrier <input id="carrier" value="AA" size="4"> Origin <input id="origin" value="ATL" size="4">
 Dest <input id="dest" value="DFW" size="4"><br>

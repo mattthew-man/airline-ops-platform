@@ -84,10 +84,10 @@ jobs:
 
       - name: Publish Space
         env:
-          HF_OIDC_RESOURCE: spaces/battina1999/flight-delay-api
+          HF_OIDC_RESOURCE: spaces/your-hf-username/flight-delay-api
           PUBLISH_MODE: ${{ inputs.mode }}
         run: >-
-          hf upload battina1999/flight-delay-api
+          hf upload your-hf-username/flight-delay-api
           "$RUNNER_TEMP/space" .
           --repo-type space
           --commit-message "Publish ${PUBLISH_MODE} ${GITHUB_SHA::7}"

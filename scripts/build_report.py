@@ -87,7 +87,7 @@ def build():
                             topMargin=0.7 * inch, bottomMargin=0.7 * inch,
                             leftMargin=0.85 * inch, rightMargin=0.85 * inch,
                             title="Airline Data Platform - Project Report",
-                            author="Dhanush Battina")
+                            author="Airline Data Platform")
     s = []
 
     # ---------------- cover ----------------
@@ -113,7 +113,7 @@ def build():
     s.append(Paragraph("Python · SQL · dbt · Apache Airflow · Great Expectations · "
                        "DuckDB / Snowflake · Power BI · Docker",
                        ParagraphStyle("stack", parent=SMALL, alignment=TA_CENTER)))
-    s.append(Paragraph("Author: Dhanush Battina",
+    s.append(Paragraph("Data Engineering Portfolio Project",
                        ParagraphStyle("auth", parent=SMALL, alignment=TA_CENTER)))
     s.append(PageBreak())
 
